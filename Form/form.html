@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <center>
+   <h1>Trabalhando com formulários</h1>
+   <hr>
+    <!--Formulário em Html-->
+   <form action="">
+        <!--Nome-->
+        <label>Nome</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <hr>
+        <!--Endereço-->
+        <label>Endereço</label>
+        <input type="text" name="endereco" placeholder="Digite seu endereço" required>
+        <hr>
+        <!--Senha-->
+        <label>Senha</label>
+        <input type="password" name="senha" maxlength="8" placeholder="Digite a sua senha" required>
+        <hr>
+        <!--Data de aniversário-->
+        <label>Data</label>
+        <input type="date">
+        <hr>
+        <!--Sexo-->
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="masc"> Masculino
+        <input type="radio" name="sexo" value="fem"> Feminino
+        <hr>
+        <!--Cor preferida-->
+        <label>Cor preferida:</label>
+        <input type="checkbox" name="cor" value="verde"> Verde
+        <input type="checkbox" name="cor" value="amarelo"> Amarelo
+        <input type="checkbox" name="cor" value="amarelo"> Vermelho
+        <input type="checkbox" name="cor"value="azul"> Azul
+        <hr>
+        <!--Email-->
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="Digite seu e-mail" required>
+        <hr>
+        <!--Estado-->
+        <label>UF</label>
+        <select name="uf">
+            <option>Selecione</option>
+            <option>DF</option>
+            <option>GO</option>
+            <option>MT</option>
+            <option>MS</option>
+        </select>
+        <hr>
+        <!--Anexar documentos-->
+        <label>Anexe seus documentos aqui:</label> <br><br>
+        <input type="file">
+        <hr>
+        <!--Comentário-->
+        <label>Deixe aqui seu comentário:</label> <br><br>
+        <textarea name="comentario" cols="30" rows="10" maxlength="144" required></textarea>
+        <hr><br><br>
+        <!--Botão-->
+        <input type="reset" value="Cancelar">
+        <input type="submit" value="Enviar">
+    </form> 
+</body>
+</html>
