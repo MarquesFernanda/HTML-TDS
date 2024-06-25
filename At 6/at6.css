@@ -1,0 +1,19 @@
+#banner {
+    background-image: url(/imagem1.jpg);
+    background-size: auto;
+    height: 200px;
+}
+
+nav {
+    background-color: rgb(255, 255, 19);
+    padding: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    color: rgb(0, 4, 255);
+    text-decoration: none;
+}
