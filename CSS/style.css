@@ -4,9 +4,11 @@ body {
     background-repeat: none;
     background-position: none;
     background-size: 100%;
-    
+
 }
-p{
+
+p,
+article {
     color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -14,17 +16,54 @@ p{
     font-stretch: extra-expanded;
 }
 
-p{
+p,
+article {
     text-indent: 50px;
     text-align: justify;
     text-transform: none;
     text-decoration: underline;
-    text-decoration-color:blueviolet;
+    text-decoration-color: rgb(62, 9, 112);
     word-spacing: 3px;
     letter-spacing: 3px;
     white-space: none;
     word-break: break-all;
 }
+
+div {
+    border-width: 20px;
+    border-style: double;
+    border-color: rgb(60, 8, 109);
+    margin: 20px;
+    padding: 10px 10px;
+}
+
+section {
+    border: 10px solid rgb(62, 9, 112);
+    height: 250px;
+    margin: 20px;
+}
+
+article {
+    border: 10px double rgb(62, 9, 112);
+    height: 230px;
+    margin: 5px 0px 5px;
+    padding: 10px 10px;
+
+
+}
+
+aside{
+    margin: 40px;
+    padding: 50px;
+    width: auto;
+    border-width: 7px;
+    border-style: solid;
+    border-image: url( '/fundo\ roxo.jpg') 25% round;
+    background-color: rgb(62, 9, 112);
+    box-shadow: 0 0 15px;
+  
+}
+
 /*
 (Gradiente)
 
