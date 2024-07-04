@@ -1,52 +1,92 @@
-body{
+body {
     background-color: #071937;
     margin: 0;
     padding: 5px;
 }
-    
+
 #banner {
-    border: 7px double  #304a6a;
+    border: 7px double #304a6a;
     height: 128px;
     background-image: url(S&S\ AVIAMENTOS.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #071937;
 }
+
 #menu {
-   
+
     background-color: #304a6a;
     height: 30px;
     margin-top: 5px;
     margin-left: 0%;
-    
+
 }
+
 table {
     text-align: center;
     width: 100%;
 }
+
 tr {
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     font-weight: 600;
 }
+
 a {
     text-decoration: none;
     color: #071937;
 }
-a:hover{
+
+#label1 {
+    text-transform: none;
+    font-size: medium;
+    font-weight: 100;
+}
+
+a:hover {
     color: #537297;
 }
+
 iframe {
     border: 3px solid #304a6a;
-    width: 99%;
+    width: 99.7%;
+    height: 800px;
+
+}
+
+#cursos1 {
+    width: 930px;
     height: 500px;
-   
+}
+
+#cursos {
+    height: 100%;
+
 }
 
 /* HOME.HTML */
-h2, h3, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+label {
     color: #537297;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#a1 {
+    color: #537297;
+    text-decoration: underline;
+}
+
+#table2 {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: #526e91;
 }
