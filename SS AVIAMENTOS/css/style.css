@@ -1,21 +1,21 @@
 body {
-    background-color: #071937;
+    background-color:  #6daef8;
     margin: 0;
     padding: 5px;
 }
 
 #banner {
-    border: 7px double #304a6a;
+   
     height: 128px;
-    background-image: url(S&S\ AVIAMENTOS.png);
+    background-image: url(/css/imagens/S_S-removebg-preview.png);
+ 
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #071937;
 }
 
 #menu {
 
-    background-color: #304a6a;
+    background-color: #328af5;
     height: 30px;
     margin-top: 5px;
     margin-left: 0%;
@@ -36,7 +36,7 @@ tr {
 
 a {
     text-decoration: none;
-    color: #071937;
+    color: #000000;
 }
 
 #label1 {
@@ -46,11 +46,11 @@ a {
 }
 
 a:hover {
-    color: #537297;
+    color: #ffffff;
 }
 
 iframe {
-    border: 3px solid #304a6a;
+    border: 3px solid  #6daef8;
     width: 99.7%;
     height: 800px;
 
@@ -68,19 +68,21 @@ iframe {
 
 /* HOME.HTML */
 h1,
-h2,
 h3,
 h4,
 h5,
 p,
 ul,
-label {
-    color: #537297;
+legend,
+label
+{
+    color: #000307;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#a1 {
-    color: #537297;
+#legend1 {
+    
+    color: #000000;
     text-decoration: underline;
 }
 
@@ -88,5 +90,12 @@ label {
     width: 400px;
     height: 200px;
     text-align: center;
-    color: #526e91;
+    color: #000000;
+}
+hr {
+    color: #ffffff;
+}
+
+fieldset {
+    color: #328af5;
 }
