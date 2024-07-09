@@ -1,0 +1,201 @@
+body {
+    background-color:  #ffffff;
+    margin: 0;
+    padding: 5px;
+}
+
+#banner {
+    background-color: rgb(16, 133, 188);
+    height: 128px;
+    background-image: url(/css/imagens1/S&S\ \(2\).png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#menu {
+
+    background-color: rgb(16, 133, 188);
+    height: 30px;
+    margin-left: 0%;
+    
+
+}
+ #td1 {
+    color: white;
+ }
+#barramenu {
+    color: white;
+}
+#menu2:hover {
+    background-color: rgb(25, 87, 116);
+}
+#menu1:hover {
+    background-color:rgb(25, 87, 116);
+}
+#menu3:hover {
+    background-color:rgb(25, 87, 116);
+}
+#menu4:hover {
+    background-color: rgb(25, 87, 116);
+}
+#menu5:hover {
+    background-color:rgb(25, 87, 116);
+}
+
+
+
+
+table {
+    text-align: center;
+    width: 100%;
+}
+
+tr {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#label1 {
+    text-transform: none;
+    font-size: medium;
+    font-weight: 100;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+iframe {
+    border: 3px solid  #ffffff;
+    width: 99.7%;
+    height: 800px;
+
+}
+
+#cursos1 {
+    width: 930px;
+    height: 500px;
+}
+
+#cursos {
+    height: 100%;
+
+}
+
+/* HOME.HTML */
+h1,
+h3,
+h4,
+h5,
+p,
+ul,
+legend,
+label
+{
+    color: #000307;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#legend1 {
+    
+    color: #000000;
+    text-decoration: underline;
+}
+
+#table2 {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    color: #000000;
+}
+hr {
+    color: #ffffff;
+}
+
+
+#promocao {
+    padding-bottom: 5px 10px;
+    border-bottom:3px solid #3daf3b;
+    background-color:#2af33e;
+    margin: 40px 20px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aproveite {
+    text-align: center;
+    color: white;
+}
+#confira {
+    border: none ;
+    background-color:#3daf3b;
+    text-align: center;
+    color: white;
+}
+
+#cat{
+    border: 2px solid rgb(16, 133, 188);
+}
+#cat1 {
+    border: 2px solid rgb(16, 133, 188);
+}
+#cat2 {
+    border: 2px solid rgb(16, 133, 188);
+}
+
+#Busca{
+    background-color:#ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#caixaBusca{
+    border: 1px solid;
+    border-radius: 15px;
+    float:center;
+    padding-left:20px;
+    font-style:italic;
+    font-size:20px;
+    height:30px;
+    width:600px;
+}
+
+ #imgbusca {
+    margin-left: 10px;
+ }
+ figure {
+    border: 6px solid #c0c0c0;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 340px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 340px;
+    max-height: 180px;
+  }
+  
+  figcaption {
+    background-color: rgb(16, 133, 188);
+    color: #ffffff;
+    font: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  #hometable {
+    margin-top: 40px;
+  }
+  
