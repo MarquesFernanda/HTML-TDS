@@ -1,26 +1,50 @@
 body {
-    background-color:  #b5c4d6;
+    background-color:  #ffffff;
     margin: 0;
     padding: 5px;
 }
 
 #banner {
-   
+    background-color: rgb(16, 133, 188);
     height: 128px;
-    background-image: url(/css/imagens/S_S-removebg-preview.png);
- 
+    background-image: url(/css/imagens/S&S\ \(2\).png);
+    
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #menu {
 
-    background-color: #fbfcfd;
+    background-color: rgb(16, 133, 188);
     height: 30px;
-    margin-top: 5px;
     margin-left: 0%;
+    
 
 }
+ #td1 {
+    color: white;
+ }
+#barramenu {
+    color: white;
+}
+#menu2:hover {
+    background-color: rgb(25, 87, 116);
+}
+#menu1:hover {
+    background-color:rgb(25, 87, 116);
+}
+#menu3:hover {
+    background-color:rgb(25, 87, 116);
+}
+#menu4:hover {
+    background-color: rgb(25, 87, 116);
+}
+#menu5:hover {
+    background-color:rgb(25, 87, 116);
+}
+
+
+
 
 table {
     text-align: center;
@@ -46,29 +70,53 @@ a {
 }
 
 a:hover {
-    color: #b5c4d6;
+    color: #ffffff;
 }
 
 iframe {
-    border: 3px solid  #b5c4d6;
+    border: 3px solid  #ffffff;
     width: 99.7%;
     height: 800px;
 
 }
+#cursostexto {
+    margin-top: 20px;
+    padding-bottom: 5px 10px;
+    border-top: 7px outset #e9882d;;
+    border-bottom:7px inset #e9882d;
+    border-right: 7px outset #e9882d;
+    border-left:7px inset #e9882d;
+    background-color: #ff9100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pcursos {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5px ;
+}
 
 #cursos1 {
-    width: 930px;
-    height: 500px;
+    width: 450px;
+    height: 240px;
+    border: 5px inset #e9882d;
 }
 
 #cursos {
+    
     height: 100%;
+    margin-top: 30px;
+
+}
+#cursos2 {
+    width: 450px;
+    height: 240px;
+    border: 5px inset #e9882d;
 
 }
 
 /* HOME.HTML */
-h1,
-h3,
+h1, h3,
 h4,
 h5,
 p,
@@ -95,3 +143,85 @@ label
 hr {
     color: #ffffff;
 }
+
+
+#promocao {
+    padding-bottom: 5px 10px;
+    border-bottom:5px inset #3daf3b;
+    border-top:5px outset #3daf3b;
+    border-left:5px inset #3daf3b;
+    border-right:5px outset #3daf3b;
+    background-color:#2af33e;
+    margin: 40px 20px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aproveite {
+    text-align: center;
+    color: white;
+}
+#confira {
+    border: ridge;
+    background-color:#3daf3b;
+    text-align: center;
+    color: white;
+}
+
+#cat{
+    border: 2px solid rgb(16, 133, 188);
+}
+#cat1 {
+    border: 2px solid rgb(16, 133, 188);
+}
+#cat2 {
+    border: 2px solid rgb(16, 133, 188);
+}
+
+#Busca{
+    background-color:#ffffff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+#caixaBusca{
+    border: 1px solid;
+    border-radius: 15px;
+    float:center;
+    padding-left:20px;
+    font-style:italic;
+    font-size:20px;
+    height:30px;
+    width:600px;
+}
+
+ #imgbusca {
+    margin-left: 10px;
+ }
+ figure {
+    border: 6px solid #c0c0c0;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 340px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 340px;
+    max-height: 180px;
+  }
+  
+  figcaption {
+    background-color: rgb(16, 133, 188);
+    color: #ffffff;
+    font: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  #hometable {
+    margin-top: 40px;
+  }

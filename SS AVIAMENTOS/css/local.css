@@ -1,0 +1,13 @@
+#textolocal{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    border: 5px groove rgb(16, 133, 188);
+    background-color: rgb(16, 133, 188);
+    margin-right: 36% ;
+    margin-left: 36% ;
+}
+
+#divlocal {
+    border: 5px groove rgb(16, 133, 188);
+}
